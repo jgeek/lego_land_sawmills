@@ -1,15 +1,14 @@
+package logoland;
+
 import java.util.ArrayList;
 import java.util.List;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 public class TrunksProfitCalculator {
 
     private static int LEN = 3;
-
     private List<Integer> trunks;
-
-    public TrunksProfitCalculator(List<Integer> trunks) {
-        this.trunks = trunks;
-    }
 
     public int calculate() {
         int windowSize = 0;
