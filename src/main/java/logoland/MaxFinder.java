@@ -9,15 +9,15 @@ public class MaxFinder {
 
     private final List<Integer> trunks;
 
-    public List<List<Integer>> find() {
+    public Set<List<Integer>> find() {
 
         PermutationIterator<Integer> permIterator = new PermutationIterator<>(trunks);
 
-        Map<Integer, List<List<Integer>>> map = new TreeMap<>((o1, o2) -> o2 - o1);
+        Map<Integer, Set<List<Integer>>> map = new TreeMap<>((o1, o2) -> o2 - o1);
         permIterator.forEachRemaining(perm -> {
             int profit = new TrunksProfitCalculator(perm).calculate();
             if (!map.containsKey(profit)) {
-                List<List<Integer>> list = new ArrayList<>();
+                Set<List<Integer>> list = new HashSet<>();
                 map.put(profit, list);
             }
             map.get(profit).add(perm);
