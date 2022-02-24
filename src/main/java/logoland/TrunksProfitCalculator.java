@@ -29,7 +29,7 @@ public class TrunksProfitCalculator {
                 profit += profitOfTrunk(currentTrunk);
                 windowSize += currentTrunk;
                 lengthIndex += currentTrunk;
-                if (windowSize == 3) {
+                if (windowSize == LEN) {
                     windowSize = 0;
                 }
             }
