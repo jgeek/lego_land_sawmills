@@ -39,16 +39,13 @@ the river. Idem, the last number is the last tree trunk thrown into the river. I
 uniquely determined, print all possible orders. Remove all duplicates.
 
 ## Example input
-# case 1:
-1
-3 2 3 1
-
-# case 2:
-3
-3 1 2 1
-2 1 2
-2 1 4
-0
+1<br />
+3 2 3 1<br />
+3<br />
+3 1 2 1<br />
+2 1 2<br />
+2 1 4<br />
+0<br />
 
 Example output
 Case 1
