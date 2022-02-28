@@ -47,11 +47,11 @@ uniquely determined, print all possible orders. Remove all duplicates.
 2 1 4<br />
 0<br />
 
-Example output
-Case 1
-Max profit: 4
-Order: [1 3 2] [2 3 1]
-Case 2
-Max profit: 8
+Example output:<br />
+Case 1<br />
+Max profit: 4<br />
+Order: [1 3 2] [2 3 1]<br />
+Case 2<br />
+Max profit: 8<br />
 Order: [1 2 1] [2 1 1], [1 2] [2 1], [1 4]
 
