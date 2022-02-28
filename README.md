@@ -38,10 +38,12 @@ between squares. Whereas the first number represents the first tree trunk to be 
 the river. Idem, the last number is the last tree trunk thrown into the river. If this order is not
 uniquely determined, print all possible orders. Remove all duplicates.
 
-
 ## Example input
+# case 1:
 1
 3 2 3 1
+
+# case 2:
 3
 3 1 2 1
 2 1 2
