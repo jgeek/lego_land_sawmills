@@ -21,7 +21,7 @@ carpenters. To be more precise:
  Luckily, sawn wood of length 3 can still be sold for +1 as it can be shortened by the carpenters
 themself.
 
-#Exercise
+# Exercise
 The input describes several test cases:
 1. The first line of input for each test case contains a single integer Z, the number of sawmills
 (each is connected to its own river) in the test case.
