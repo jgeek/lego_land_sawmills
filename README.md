@@ -37,3 +37,22 @@ For each test case,
 between squares. Whereas the first number represents the first tree trunk to be thrown into
 the river. Idem, the last number is the last tree trunk thrown into the river. If this order is not
 uniquely determined, print all possible orders. Remove all duplicates.
+
+
+## Example input
+1
+3 2 3 1
+3
+3 1 2 1
+2 1 2
+2 1 4
+0
+
+Example output
+Case 1
+Max profit: 4
+Order: [1 3 2] [2 3 1]
+Case 2
+Max profit: 8
+Order: [1 2 1] [2 1 1], [1 2] [2 1], [1 4]
+
