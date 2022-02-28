@@ -20,3 +20,20 @@ carpenters. To be more precise:
  Sawn wood of length 2 has a profit of +3.
  Luckily, sawn wood of length 3 can still be sold for +1 as it can be shortened by the carpenters
 themself.
+
+#Exercise
+The input describes several test cases:
+1. The first line of input for each test case contains a single integer Z, the number of sawmills
+(each is connected to its own river) in the test case.
+2. This is followed by Z lines, each describing the tree trunks.
+3. The first number in each line is the number E of tree trunks that are cut.
+4. Following it are E strict positive integers, indicating the length (in blocks) of the tree trunks.
+5. The input is terminated by a description starting with Z = 0.
+This description should not be processed.
+For each test case,
+1. Print the case number (1, 2, ...).
+2. Then print two lines, the first containing the maximum profit the woodcutters can achieve.
+3. The second line should specify the order the woodcutters should throw the trees into the river
+between squares. Whereas the first number represents the first tree trunk to be thrown into
+the river. Idem, the last number is the last tree trunk thrown into the river. If this order is not
+uniquely determined, print all possible orders. Remove all duplicates.
